@@ -1,8 +1,8 @@
-import 'package:dart_playground/dart_playground.dart';
+import 'package:dart_playground/imc.dart';
 import 'package:test/test.dart';
 
 void main() {
-  test('calculate', () {
-    expect(calculate(), 42);
+  test('IMC', () {
+    expect(imc(95, 1.78), 29.983587930816814);
   });
 }
